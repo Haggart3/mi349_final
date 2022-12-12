@@ -1,7 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
     background-color: grey;
     margin: 25px 25px 25px 25px;
+    
 }
 
 
@@ -10,6 +12,8 @@ body {
     background-color: bisque;
     width: 97%;
     margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px black;
 }
 
 #nav a{
@@ -23,10 +27,22 @@ body {
 }
 
 #main_content {
-    display: flex;
-    background: beige;
+    display: block;
+    background: rgb(245, 245, 220);
     margin: 0 auto;
     width: 97%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px black;
+    padding-bottom: 15px;
+
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*border-bottom: 5px solid grey;*/
+    box-shadow: 0px 24px 3px -24px grey;
 }
 
 h1 {
@@ -34,7 +50,155 @@ h1 {
     margin: 10 10 10 10;
 }
 
+h2 {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
 
+#headshot {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-left: 120px;*/
+}
+
+
+.bio {
+    display: block;
+    text-align: center;
+    background: rgb(173, 173, 124);
+    width: 95%;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+p {
+    display: block;
+    font-size: large;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.experience {
+    display: block;
+    text-align: center;
+    background: rgb(173, 173, 124);
+    width: 95%;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.skills {
+    display: block;
+    text-align: center;
+    background: rgb(173, 173, 124);
+    width: 95%;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.Skills-List {
+    display: inline-flex;
+}
+
+.interest {
+    display: block;
+    text-align: center;
+    background: rgb(173, 173, 124);
+    width: 95%;
+    margin-top: 45px;
+    margin-left: auto;
+    padding-bottom: 5px;
+    margin-right: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.ContactForm {
+    display: inline-block;
+    text-align: center;
+    background: rgb(173, 173, 124);
+    width: 95%;
+    margin-top: 45px;
+    margin-left: auto;
+    padding-bottom: 5px;
+    margin-right: auto;
+    border-radius: 5px;
+    justify-content: center;
+}
+/*
+.Form {
+    
+    display: inline-flex;
+    justify-content: flex-start;
+    text-align: center;
+    background: rgb(173, 173, 124);
+    width: 95%;
+    margin-top: 45px;
+    margin-left: auto;
+    padding-bottom: 5px;
+    margin-right: auto;
+    border-radius: 5px;
+    justify-content: center;
+    
+}
+*/
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background: rgb(173, 173, 124);
+    padding: 10px;
+  }
+  
+  .Form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .Form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: none;
+  }
+  
+  .Form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
 
 .sticky {
     position: fixed;
